@@ -238,10 +238,8 @@ psutil
 ### Credits
 * nanoGPT by Andrej Karpathy
 Foundation of this implementation
-GitHub Repository
 
 * DeepSeek-V3
 Inspiration for MLA and MoE architectures
-GitHub Repository
 
 This project merges these pioneering works with specialized modifications for music generation.
