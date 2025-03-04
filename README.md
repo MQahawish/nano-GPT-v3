@@ -73,7 +73,7 @@ nano-GPT-v3/
 │
 ├── models/                # Trained models
 │   └── 3layers12heads32batch512seq-simple/
-│       ├── checkpoint.pt  # Model checkpoint (download from HF link above)
+│       ├── checkpoint.pt  # Model checkpoint (download from GoogleDrive link above)
 │       ├── config.pkl     # Serialized configuration
 │       ├── config.txt     # Human-readable configuration
 │       ├── eval.log       # Evaluation logs
