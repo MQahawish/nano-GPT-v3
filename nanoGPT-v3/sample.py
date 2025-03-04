@@ -82,7 +82,7 @@ def load_tokenizer():
 
 def get_initial_sequence(tokenizer):
     # Return an empty initial sequence so that add_special_tokens adds the "START" token automatically.
-    return "sepxx d3", "silence_first"
+    return "", "silence_first"
 
 
 
@@ -160,7 +160,7 @@ if __name__ == "__main__":
                         help="Directory for model checkpoint")
     parser.add_argument('--tokenizer_path', type=str, default=os.path.join('nanoGPT-v3', 'tokenizers', 'simple_tokenizer.json'),
                         help="Path to the tokenizer JSON file")
-    parser.add_argument('--num_samples', type=int, default=5, help="Number of samples to generate")
+    parser.add_argument('--num_samples', type=int, default=10, help="Number of samples to generate")
     parser.add_argument('--temperature', type=float, default=0.9, help="Temperature for generation")
     parser.add_argument('--top_k', type=int, default=100, help="Top K tokens for sampling")
     parser.add_argument('--max_tokens', type=int, default=512, help="Fixed tokens for streaming generation")
