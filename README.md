@@ -39,8 +39,8 @@ A specialized implementation of GPT optimized for MIDI music generation with **M
 
 To sample music using the pre-trained model I trained (70M parameters), you need to:
 
-1. Download the model checkpoint from the Hugging Face repository:
-   [https://huggingface.co/MQahawish/nanoGPT-v3-midi/blob/main/checkpoint.pt](https://huggingface.co/MQahawish/nanoGPT-v3-midi/blob/main/checkpoint.pt)
+1. Download the model checkpoint from GoogleDrive here:
+   [Download Model](https://drive.google.com/file/d/1e5yulPjOSvAA3b0yC6EryZeKU4Cf6yW8/view?usp=sharing)
 
 2. Place the downloaded `checkpoint.pt` file in this directory:
 ``models/3layers12heads32batch512seq-simple/
@@ -161,7 +161,7 @@ Utilize `sample.py` to generate music with:
 
 ## Usage
 
-### 1. Encode MIDI Files
+ 1. Encode MIDI Files
 ```bash
 python encode_all.py --midi_dirs path/to/midi/files --text_dir output/text/dir --num_processes 8
 ```
